@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="316dp"
+        android:layout_height="435dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResultado">
+
+        <Button
+            android:id="@+id/uno"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickButtonUno"
+            android:text="1"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/tres"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickButtonTres"
+            android:text="3"
+            app:layout_column="2"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/cuatro"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickButtonCuatro"
+            android:text="4"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/punto"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickButtonPunto"
+            android:text="."
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/entre"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickDivision"
+            android:text="/"
+            app:layout_column="3"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/siete"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickButtonSiete"
+            android:text="7"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/por"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickMultiplicacion"
+            android:text="*"
+            app:layout_column="3"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/menos"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickResta"
+            android:text="-"
+            app:layout_column="3"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/dos"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickButtonDos"
+            android:text="2"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/seis"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickButtonSeis"
+            android:text="6"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/nueve"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickButtonNueve"
+            android:text="9"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/borrar"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickLimpia"
+            android:text="c"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/cinco"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickButtonCinco"
+            android:text="5"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/ocho"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickButtonOcho"
+            android:text="8"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/cero"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickButtonCero"
+            android:text="0"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/mas"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickSuma"
+            android:text="+"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/igual"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickIgual"
+            android:text="="
+            app:layout_column="2"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/sen"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickSen"
+            android:text="sen"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/cos"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickCos"
+            android:text="cos"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/tan"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:onClick="onClickTan"
+            android:text="tan"
+            app:layout_column="2"
+            app:layout_row="0" />
+    </android.support.v7.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        style="@android:style/Widget.Holo.Light.TextView"
+        android:layout_width="316dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
